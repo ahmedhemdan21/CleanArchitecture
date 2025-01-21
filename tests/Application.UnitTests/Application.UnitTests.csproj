@@ -8,6 +8,13 @@
     <ItemGroup>
         <PackageReference Include="Azure.Identity" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <!-- Add xUnit packages -->
+        <PackageReference Include="xunit" />
+        <PackageReference Include="xunit.runner.visualstudio">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <!-- Existing NUnit packages -->
         <PackageReference Include="nunit" />
         <PackageReference Include="NUnit.Analyzers">
           <PrivateAssets>all</PrivateAssets>
